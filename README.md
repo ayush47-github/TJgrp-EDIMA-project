@@ -1,2 +1,3 @@
-# TJgrp-EDIMA-project
-A repository of the code written for EDIMA project under Prof TJ Lim at the NUS-Singtel Corp lab.
+# EDIMA: Early Detection of IoT Malware Network Activity Using Machine Learning Techniques
+
+Post the Mirai-based DDoS attack in 2016 which compromised IoT devices, a host of new malware using Mirai's leaked source code and targeting IoT devices have cropped up, e.g. Satori, Reaper, Amnesia, Masuta etc. These malware exploit software vulnerabilities to infect IoT devices instead of open TELNET ports (like Mirai) making them more difficult to block using existing solutions such as firewalls. In this research, we present EDIMA, a distributed modular solution which can be used towards the detection of IoT malware network activity in large-scale networks (e.g. ISP, enterprise networks) during the scanning/infecting phase rather than during an attack. EDIMA employs machine learning algorithms for edge devices' traffic classification, a packet traffic feature vector database, a policy module and an optional packet sub-sampling module.
